@@ -46,6 +46,12 @@ export default function Dashboard() {
   const classes = useStyles();
   return (
     <div>
+      <div id="dvImportSegments" class="fileupload ">
+        <fieldset>
+          <legend>Upload your CSV File</legend>
+          <input type="file" name="File Upload" id="txtFileUpload" accept=".csv" />
+        </fieldset>
+      </div>
       <GridContainer>
         <GridItem xs={12} sm={6} md={3}>
           <Card>
